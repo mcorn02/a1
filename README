@@ -1,0 +1,25 @@
+Team Names: Michael Corn and Simmon Quan
+
+Edoras Usernames: cssc1415 and cssc1450
+
+Class Info: CS 480 Operating Systems, Summer Session 2 2025
+
+Assignment #1: Concurrent Thread Chatbots
+
+File Name: README
+
+
+
+File Manifest: bots.h, bots.cpp, bots.o, Makefile, README
+
+Compile Instructions: Navigate to the ~/a1 directory. Type make into the command line/shell in order to compile.
+
+Operating Instructions: Type the two desired strings within the include file EVEN_QUOTE and ODD_QUOTE variables before running the program and compiling. Run the program by running ./bots in the command line. There is no user input required during execution. Once the program has executed, run make clean to delete the executable and the QUOTE.txt file for next time you run.
+
+Design Decisions: While designing this program, we decided to include the functionality of allowing the user to edit the output quotes to their own desired quotes via editing the include file. We also modularized each operation such as creating the threads, creating the semaphore, and deleting the semaphore. This separation of functions simplifies the main method for improved readability.
+
+No non-required features/functionality was added.
+
+To our knowledge, all known deficiencies/bugs were fixed during testing.
+
+Lessons Learned: Through this project we learned how to ssh into Edoras, how to create/use/name semaphores and threads, how to execute tasks concurrently, and how to upload our program files to Edoras using FileZilla.
