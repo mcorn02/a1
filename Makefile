@@ -4,9 +4,9 @@
 
 #Class Info: CS 480 Operating Systems, Summer Session 2 2025
 
-#Assignment #1: Concurrent Thread Chatbots
+#Assignment #1: Concurrent Thread Chatbot
 
-#File Name: README
+#File Name: Makefile
 	
 
 CXX = g++
